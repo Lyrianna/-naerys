@@ -1,0 +1,14 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+
+[[mods]]
+modId="enaerys"
+version="1.0.0"
+displayName="Enaerys"
+displayURL="https://github.com/Lyrianna/Enaerys"
+logoFile="examplemod.png"
+credits="Credits"
+authors="Lyrianna, Keitamine, Sehnryr"
+description='''
+Hello World!
+'''
