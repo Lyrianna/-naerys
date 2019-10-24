@@ -1,3 +1,5 @@
 {
-	"item.enaerys.test_item": "Test"
+	"item.enaerys.test_item": "Test",
+	
+	"itemGroup.enaerys": "Enaerys"
 }

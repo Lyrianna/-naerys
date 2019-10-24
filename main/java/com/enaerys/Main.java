@@ -24,6 +24,8 @@ public class Main {
 	public static final String modid = Reference.MOD_ID;
 	private static final Logger logger = LogManager.getLogger(modid);
 	
+	public static final ItemGroup itemGroup = new EnaerysItemGroup();
+	
 	public Main() {
 		
 		instance = this;
@@ -36,10 +38,12 @@ public class Main {
 
 	private void setup(final FMLCommonSetupEvent event){
 		
+		logger.info("setup method registered.");
 	}
 	
 	private void clientRegisteries(final FMLClientSetupEvent event){
-		
+
+		logger.info("clientRegisteries method registered.");
 	}
 	
 	@Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
@@ -49,8 +53,7 @@ public class Main {
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 
 			event.getRegistry().registerAll(
-				ModItems.test_item = new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(location("test_item"))
-				//BaseItem.test_item = new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(new ResourceLocation(modid, "test_item");
+				ModItems.test_item = new Item(new Item.Properties().group(itemGroup)).setRegistryName(location("test_item"))
 			);
 			
 			logger.info("Items registered.");
