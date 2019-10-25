@@ -19,3 +19,18 @@ Kei :
 Lyriana :
 - Definir des spells pour les éléments
 - a définir entre nous : nombre de spells, nombre de niveau, nombre de spells défensif et offensif.
+
+print("Bienvenue dans ce selecteur de formule, choisisez celle désirée")
+x = int(input("1-> U 2-> R 3-> I"))
+if x == 1:
+    a = int(input("Entrez R"))
+    b = int(input("Entrez I"))
+    print("U =",a*b)
+if x == 2:
+    a = int(input("Entrez U"))
+    b = int(input("Entrez I"))
+    print("U =",a/b)
+if x == 3:
+    a = int(input("Entrez U"))
+    b = int(input("Entrez R"))
+    print("U =",a/b)
