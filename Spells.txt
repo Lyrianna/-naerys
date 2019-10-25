@@ -1,11 +1,31 @@
+                Kei :
+
+Fire :
+    lvl 1 :
+        - pose une source de lave servant a l'utilisation des spells offensif si pas de source de chaleur a proximité. Durée : A DETERMINER / Rayon : A DETERMINER
+        - pose un four fonctionnant avec le mana de l'utilisateur. Durée : 5min.
+
+Earth :
+    lvl 1 :
+        - Pose une "balise" asséchant toutes sources de liquide environnante. Durée : A DETERMINER / Rayon : A DETERMINER
+
+Water :
+    lvl 1 :
+        - Pose une "balise" ou une source -non récupérable- servant a l'utilisation des spells offensif si pas de source de chaleur a proximité et permettant d'arroser les culture. Durée : A DETERMINER / Rayon : A DETERMINER
+
+Wind :
+-
+
+                Sehn :
+
 Fire :
 -
 
 Earth :
-- 
+-
 
 Water :
-- 
+-
 
 Wind :
-- 
+-
