@@ -1,6 +1,7 @@
-package com.enaerys;
+package enaerys.util;
 
-import com.enaerys.lists.ModItems;
+import enaerys.init.ModItem;
+import enaerys.util.Reference;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -9,12 +10,12 @@ public class EnaerysItemGroup extends ItemGroup{
 	
 	public EnaerysItemGroup() {
 		
-		super("Enaerys");
+		super(Reference.NAME);
 	}
 
 	@Override
 	public ItemStack createIcon() {
 		
-		return new ItemStack(ModItems.test_item);
+		return new ItemStack(ModItem.TEST_ITEM);
 	}
 }
