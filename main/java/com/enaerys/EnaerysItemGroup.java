@@ -1,7 +1,7 @@
-package enaerys.util;
+package com.enaerys;
 
-import enaerys.init.ModItem;
-import enaerys.util.Reference;
+import com.enaerys.lists.ItemList;
+import com.enaerys.util.Reference;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +16,6 @@ public class EnaerysItemGroup extends ItemGroup{
 	@Override
 	public ItemStack createIcon() {
 		
-		return new ItemStack(ModItem.TEST_ITEM);
+		return new ItemStack(ItemList.test_item);
 	}
 }
