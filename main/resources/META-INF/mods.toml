@@ -3,7 +3,7 @@ loaderVersion="[28,)" #mandatory (28 is current forge version)
 
 [[mods]]
 modId="enaerys"
-version="1.0.0Dev"
+version="1.0.0Test"
 displayName="Enaerys"
 displayURL="https://github.com/Lyrianna/Enaerys"
 logoFile="examplemod.png"

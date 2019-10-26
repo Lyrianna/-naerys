@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures":{
-		"layer0": "enaerys:item/test_item"
+		"layer0": "enaerys:items/test_item"
 	}
 }
