@@ -35,7 +35,7 @@ public class FireFurnace extends Block{
     }
 
     public Direction getFacingFromEntity(BlockPos clickedBlock, LivingEntity entity) {
-        return Direction.getFacingFromVector((float) (entity.posX - clickedBlock.getX()), (float) (entity.posY - clickedBlock.getY()), (float) (entity.posZ - clickedBlock.getZ()));
+        return Direction.getFacingFromVector((float) (entity.posX - clickedBlock.getX()), 0, (float) (entity.posZ - clickedBlock.getZ()));
     }
 
     @Override
