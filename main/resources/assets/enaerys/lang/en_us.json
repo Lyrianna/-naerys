@@ -1,5 +1,8 @@
 {
 	"item.enaerys.test_item": "Test",
 	
+	"block.enaerys.fire_furnace": "Fire Furnace",
+	"block.enaerys.fire_furnace1": "Fire Furnace1",
+	
 	"itemGroup.Enaerys": "Enaerys"
 }

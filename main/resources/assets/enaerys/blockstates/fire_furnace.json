@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "enaerys:block/fire_furnace" },
+        "facing=south": { "model": "enaerys:block/fire_furnace", "y": 180 },
+        "facing=west":  { "model": "enaerys:block/fire_furnace", "y": 270 },
+        "facing=east":  { "model": "enaerys:block/fire_furnace", "y": 90 }
+    }
+}
