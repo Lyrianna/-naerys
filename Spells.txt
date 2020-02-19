@@ -19,14 +19,13 @@ Wind :
                 Sehn :
 
 Fire :
-    lvl 1:
-        - 
+    balise : Four de feu
 
 Earth :
 -
 
 Water :
--
+    balise : jare / fontaine
 
 Wind :
 -
