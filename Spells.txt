@@ -19,7 +19,8 @@ Wind :
                 Sehn :
 
 Fire :
--
+    lvl 1:
+        - 
 
 Earth :
 -
